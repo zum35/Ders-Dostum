@@ -46,7 +46,6 @@ https://ders-dostum-912jl5jx4-zum35s-projects.vercel.app/
 
 
 
-
 Bunlar üç görevden oluşuyor:
 
     1. Kullanıcının kartı çevirmek isteyip istemediğini yansıtan yeni bir state ya da mevcut flashCard state'inde bir özellik oluşturun.
