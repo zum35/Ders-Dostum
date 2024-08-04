@@ -1,6 +1,6 @@
 <!-- Bu görevi tamamlamak için yapmanız gereken üç şey var. Bunların ne olduğunu bulmak burada aşılması gereken ana zorluklardan biridir, bu yüzden düşünmek için kendinize biraz zaman verin. Hala takıldıysanız, başka bir ipucu için 50. satıra ilerleyin (spoiler uyarısı).
 
-
+https://ders-dostum-912jl5jx4-zum35s-projects.vercel.app/
 
 
 
