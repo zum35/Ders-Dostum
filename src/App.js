@@ -7,8 +7,9 @@ export default function app() {
     choices: ["JavaScript framework'ü", 'JavaScript kütüphanesi'],
     answer: 'JavaScript kütüphanesi.',
     explanation: `Birinin framework diyebilme cüretini gösterdiğini duyarsanız, onu mümkün olduğunca bilgili bir şekilde düzeltmeniz, tercihen yanıtınıza " aslında..." diye başlamanız önemlidir.`,
+  click:false,
   })
-
+const className=flashCard.click===true?'flash-card flipped':'flash-card'
   /* Challenge: 
 
     Flashcard'ın ileri geri çevrilmesi gerekiyor. Göreviniz bunu aşağıdaki gibi ayarlamaktır: 
@@ -29,7 +30,8 @@ export default function app() {
 
       {/*-------Aşağıdaki div'i düzenleyin------------*/}
 
-      <div className='flash-card'>
+      <div className={className}
+      onClick={()=>setFlashCard((pre)=>({...pre,click:!pre.click}))}>
         {/*-------Yukarıdaki div'i düzenleyin------------*/}
 
         <div className='flash-card-inner'>
